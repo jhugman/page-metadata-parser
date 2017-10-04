@@ -1,4 +1,10 @@
 {
-  "presets": ["es2015"],
+  "presets": [
+    ["env", {
+      "targets": {
+        "iOS": "10.0"
+      }
+    }]
+  ],
   "plugins": ["transform-runtime"]
 }
