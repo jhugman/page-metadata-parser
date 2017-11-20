@@ -3,6 +3,7 @@ module.exports = {
     externals: {
       url: 'window',
     },
+    output: {
         path: './client',
         filename: 'page-metadata-parser.js',
         libraryTarget: 'var',
